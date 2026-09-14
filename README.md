@@ -11,6 +11,7 @@ function PolicyTable(parkingzone, arrivalTime, accessibility, allowed, eventday)
     if ((parkingzone = "Faculty") && (arrivalTime = "normal hours") && (accessibility = "yes") && (allowed = "yes") && (eventday = "no")) console.log("Faculty permit during normal hours");
     else if ((parkingzone = "Faculty") && (arrivalTime = "after hours") && (accessibility = "yes") && (allowed = "yes") && (eventday = "no")) console.log("Faculty may use general parking after hours");
 }
+
 // case requirements
 Case 	Permit 	Arrival Time 	Accessibility 	Event Day 	Allowed 	Zone 	Fee 	Reason
 1 	Faculty 	Normal hours 	No 	            No 	            Yes 	Faculty     $0  Faculty permit during normal hours

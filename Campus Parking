@@ -1,0 +1,15 @@
+
+function PolicyTable(permit, parkingzone, arrivalTime, accessibility, allowed, eventday) {
+    if ((permit = "faculty") && (parkingzone = "Faculty") && (arrivalTime = "normal hours") && (accessibility = "yes") && (allowed = "yes") && (eventday = "no")) console.log("Faculty permit during normal hours");
+    else if ((permit = "faculty") && (parkingzone = "Faculty") && (arrivalTime = "after hours") && (accessibility = "yes") && (allowed = "yes") && (eventday = "no")) console.log("Faculty may use general parking after hours");
+}
+
+permit = "faculty"
+parkingzone = "Faculty"
+arrivalTime = "after hours"
+accessibility = "yes"
+allowed = "allowed"
+eventday = "no"
+
+Entrance = PolicyTable(permit, parkingzone, arrivalTime, accessibility, allowed, eventday);
+console.log(Entrance);
